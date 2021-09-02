@@ -139,7 +139,7 @@ body {
 }
 
 .nav a:hover, .nav-toggle:hover {
-    color: ##7C83FD;
+    color: #7C83FD;
 }
 
 .nav-toggle {
@@ -266,7 +266,7 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 a {
     color: #2eae9b;
     text-decoration: none;
-    transition: color 0.2s ease-in;
+    transition: color 0.2s ease;
 }
 
 a:hover {
@@ -284,11 +284,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1..2rem;
 }
 
 h4 {
