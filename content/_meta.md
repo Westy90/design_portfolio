@@ -1,8 +1,12 @@
 ---
-Logo: assets/img/leaf_256x256.png
-Tagline: My portfolio.
+Logo: assets/img/logo.png
+Tagline: Martins portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/Westy90/design_portfolio
+      icon: github
+footer:
+    - text: Martin Westmans portfolio 
+      url: https://github.com/Westy90/design_portfolio
       icon: github
 ---

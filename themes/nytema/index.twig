@@ -77,9 +77,11 @@
                     </a>
                 {% endfor %}
             </div>
-            <p>
-                En footer med lite text.
-            </p>
+            <div class="textFooter">
+                {% for footer in pages["_meta"].meta.footer %}
+                    {{footer.text}}
+                {% endfor %}
+            </div>
         </div>
     </div>
 

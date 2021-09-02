@@ -32,13 +32,13 @@
 /*** BASIC LAYOUT ***/
 
 html, body {
-    height: 100%;
+    height: 30%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: #88FFF7;
 }
 
 .main {
@@ -47,6 +47,10 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+}
+
+.footer{
+    margin-top: -50px;
 }
 
 .main {
@@ -77,12 +81,12 @@ body {
 
 .title, .logo {
     float: left;
-    padding: 3em 3em 3em 0;
+    padding: 2em 2em 2em 0;
 }
 
 .title * {
     margin: 0;
-    color: #111;
+    color: #7C83FD;
 }
 
 .title p {
@@ -98,9 +102,6 @@ body {
     height: 100%;
 }
 
-.logo img {
-    min-width: 4.8em;
-}
 
 .logo+.title h1 {
     margin: 0.8rem 0;
@@ -111,8 +112,9 @@ body {
 }
 
 .nav {
-    padding: 3em 0;
+    padding: 4em 0;
     text-align: right;
+    color: #7C83FD;
 }
 
 .nav ul {
@@ -129,16 +131,15 @@ body {
 }
 
 .nav a, .nav-toggle {
-    color: #333;
+    color: black;
 }
 
 .nav .active a, .nav a:hover, .nav-toggle:hover {
-    color: #3b440d;
+    color:#7C83FD;
 }
 
 .nav a:hover, .nav-toggle:hover {
-    color: #3b440d;
-    text-decoration: underline;
+    color: ##7C83FD;
 }
 
 .nav-toggle {
@@ -160,8 +161,8 @@ body {
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
-    background: #707070;
-    color: #c0c0c0;
+    background: #7C83FD;
+    color: #88FFF7;
 }
 
 .footer a {
@@ -178,9 +179,13 @@ body {
 }
 
 .footer .social {
-    float: right;
+    float: left;
     padding: 1.5em 0 1.5em 1em;
     font-size: 2rem;
+}
+
+.footer .textFooter {
+    float: right;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
